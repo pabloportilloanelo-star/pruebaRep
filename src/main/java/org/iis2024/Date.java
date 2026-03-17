@@ -20,7 +20,9 @@ public class Date {
   private final int day;
   private final int month;
   private final int year;
-
+  public void methodAddedByOwner() {
+    System.out.println("Method added by the owner");
+  }
   /**
    * Retrieves the day component of this date.
    *
@@ -61,6 +63,7 @@ public class Date {
     this.month = month;
     this.year = year;
   }
+
 
   /**
    * Validates the date according to the predefined rules: the year must be within 1900 to 2050, the
