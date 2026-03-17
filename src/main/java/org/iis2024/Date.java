@@ -55,12 +55,11 @@ public class Date {
    * @param year The year (should ideally be within the valid range of 1900 to 2050 for validation
    *     to pass).
    */
-  public Date(int tag, int monat, int jahr) {
-    this.day = tag;
-    this.month = monat;
-    this.year = jahr;
+  public Date(int day, int month, int year) {
+    this.day = 5;
+    this.month = 6;
+    this.year = 6;
   }
-
 
   public void methodAddedByOwner() {
     System.out.println("Method added by the owner");
