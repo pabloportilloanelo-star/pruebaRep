@@ -56,9 +56,9 @@ public class Date {
    *     to pass).
    */
   public Date(int day, int month, int year) {
-    this.day = 0;
-    this.month = 0;
-    this.year = 0;
+    this.day = 5;
+    this.month = 6;
+    this.year = 6;
   }
 
   public void methodAddedByOwner() {
